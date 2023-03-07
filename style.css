@@ -28,8 +28,8 @@ h1 {
     font-weight: bolder;
 }
 
-header mark {
-    background-color: white;
+.intro__subtitle mark {
+    background-color: rgb(234, 234, 246);
 }
 
 .intro_text {
@@ -48,7 +48,7 @@ h1 {
 .left-content {
     width: 30%;
     font-size: 0.8rem;
-    line-height: 1.2rem;
+    line-height: 1.3rem;
     padding-right: 0.5rem;
 }
 

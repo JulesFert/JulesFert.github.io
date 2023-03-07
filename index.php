@@ -1,14 +1,10 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.bunny.net">
-<link href="https://fonts.bunny.net/css?family=balsamiq-sans:400|open-sans:400" rel="stylesheet" />
-    <title>CV Jules FERT</title>
-</head>
+<?php 
+require "./header.php";
+include "./datas.php";
+?>
+
+
 <body>
     <div class="wrapper">
         
@@ -16,12 +12,11 @@
                 <img class="left__img" src="./images/photo pour cv.png" alt="photo Jules">
                 <h1 class="left__title">Coordonnées</h1>
                     <ul>
-                        <li>Trévoux</li>
-                        <li>jfert.lyon@gmail.com</li>
-                        <li>25 ans</li>
-                        <li>Français</li>
-                        <li>Permis B</li>
-                        <li>linkedin.com/in/julesfert</li>
+                        <?php foreach ($coordonnées as $key => $value) : ?>
+
+                        <li><?= $value;?></li>
+
+                        <?php endforeach; ?>
                     </ul>
                 <h1 class="left__title">Compétences</h1>
                     <ul>
