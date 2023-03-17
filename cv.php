@@ -7,7 +7,7 @@ include "./datas.php";
 
 <body>
         <div id="container">
-            <a href="index.html" id="return">Retour page principale</a>
+            <a href="index.php" id="return">Retour page principale</a>
         </div>
     <div class="wrapper">
         
