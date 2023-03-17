@@ -20,7 +20,7 @@
 
     <nav>
         <ul>
-            <li><a href="cv.php">Lien vers mon CV</a></li>
+            <li><a href="./cv.php">Lien vers mon CV</a></li>
             <li><a href="#">Projet 1</a></li>
             <li><a href="#">Projet </a>2</li>
         </ul>

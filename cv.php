@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php 
-require "head.php";
-include "datas.php";
+require "./head.php";
+include "./datas.php";
 ?>
 
 
