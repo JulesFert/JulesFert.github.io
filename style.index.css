@@ -1,0 +1,34 @@
+body {
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    font-family: 'Balsamiq Sans', 'Open Sans', sans-serif;
+}
+
+.link {
+    color: white;    
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.link:hover {
+    color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.intro__title {
+    margin-bottom: 3rem;
+}
+
+.intro__title, .intro__subtitle {
+    text-align: center;
+}
+
+.links li {
+    text-align: center;
+    list-style-type: none;
+    margin: 3rem;
+}

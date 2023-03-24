@@ -6,7 +6,6 @@
     text-align: center;
     padding: 15px;
     margin: 0 auto;
-
 }
 
 #return {
@@ -16,7 +15,11 @@
 
 body {
     font-family: 'Balsamiq Sans', 'Open Sans', sans-serif;
-    background-color: rgb(65, 65, 213);
+    /* background-color: rgb(65, 65, 213); */
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     font-size: 14px;
 }
 
