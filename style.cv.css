@@ -32,13 +32,8 @@ body {
     border-radius: 1.5rem;
 }
 
-h1 {
-    font-size: 1.5em;
-}
-
 /* ******************************************************HEADER********************************************* */
 .intro__title {
-    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -51,16 +46,36 @@ h1 {
     background-color: rgb(234, 234, 246);
 }
 
-.intro_text {
-    text-align: center;
+.intro__text {
+    text-align: justify;
+    color: #2C5364;
+}
+
+p {
+    color: #2C5364;
 }
 
 strong, mark {
     font-size: 1.1rem;
 }
 
-h1 {
-    text-decoration: underline;
+.intro__title2, .parkour__title, .formation__title {
+    color: #132f3b;
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+    border-bottom: 3px solid #132f3b;
+    padding-bottom: 5px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.left__title {
+    color: #132f3b;
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+    /* border-bottom: 2px solid #132f3b; */
+
 }
 
 /* ***************************************************************PARTIE GAUCHE************************************************* */
@@ -130,6 +145,10 @@ h1 {
     border-left: solid 2px rgb(255, 255, 255);
     padding: 0.5rem 1rem;
     line-height: 1.2rem;
+}
+
+.parkour__subtitle {
+    font-size: 1rem;
 }
 
 
