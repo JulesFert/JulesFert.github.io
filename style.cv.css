@@ -137,29 +137,50 @@ strong, mark {
 .html {
     display: flex;
     align-items: center;
-    border: 1px solid grey;
+    border: 2px solid grey;
     border-radius: 10px;
-    margin-bottom: 10px;
+    padding: 5px;
 }
 
-.left-content .html-logo {
-    width: 3rem;
-    height: 3rem;
-}
-
-.css {
-    display: flex;
-    align-items: flex-start;
-    border: 1px solid grey;
-    border-radius: 10px;
-}
-
-.css .css-logo {
+.html-logo {
     width: 3.5rem;
     height: 3.5rem;
 }
 
+.css, .php, .js {
+    display: flex;
+    align-items: flex-start;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 5px;
+}
 
+.css {
+    margin-top: 1rem;
+}
+
+.css-logo {
+    width: 4rem;
+    height: 4rem;
+}
+
+.php {
+    margin-top: 1rem;
+}
+
+.php-logo {
+    width: 4rem;
+    height: 4rem;
+}
+
+.js {
+    margin-top: 1rem;
+}
+
+.js-logo {
+    width: 3.5rem;
+    height: 3.5rem;
+}
 
 /* ***********************************************************PARTIE DROITE************************************************* */
 .right-content {
@@ -173,7 +194,9 @@ strong, mark {
     font-size: 1rem;
 }
 
-
+.formation__subtitle {
+    font-size: 1rem;
+}
 
 /* ***************************************************RESPONSIVE DESIGN************************************************************* */
 /* @media screen and (min-width: 1100px) {
