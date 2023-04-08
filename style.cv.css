@@ -74,12 +74,13 @@ strong, mark {
     width: 50%;
     margin: 0 auto;
     text-align: center;
+    margin-top: 1rem;;
 }
 
 .intro__text {
     text-align: justify;
     color: white;
-    padding: 10px;
+    padding: 1.2rem;
 }
 
 .intro__title2 {
@@ -187,7 +188,7 @@ strong, mark {
     width: 70%;
     border-left: solid 2px rgb(255, 255, 255);
     padding: 1rem 1rem;
-    line-height: 1.2rem;
+    line-height: 1.3rem;
 }
 
 .parkour__subtitle {
@@ -196,6 +197,10 @@ strong, mark {
 
 .formation__subtitle {
     font-size: 1.2rem;
+}
+
+.parkour, .formation {
+    line-height: 1.4rem;
 }
 
 /* ***************************************************RESPONSIVE DESIGN************************************************************* */
