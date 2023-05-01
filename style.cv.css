@@ -16,9 +16,7 @@
 body {
     font-family: 'Balsamiq Sans', 'Open Sans', sans-serif;
     
-    background: #0F2027 no-repeat;  
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+    background: rgb(23, 80, 112);  
 
     font-size: 1.2rem;
 }
@@ -69,7 +67,7 @@ strong, mark {
     color: #132f3b;
     font-size: 1.5rem;
     letter-spacing: 1.5px;
-    border-bottom: 3px solid #132f3b;
+    /* border-bottom: 3px solid #132f3b; */
     padding-bottom: 8px;
     width: 50%;
     margin: 0 auto;
@@ -81,21 +79,24 @@ strong, mark {
     text-align: justify;
     color: antiquewhite;
     padding: 1.2rem;
+    line-height: 28px;
 }
 
 .intro__title2 {
     color: antiquewhite;
-    border-bottom: 3px solid antiquewhite;
 }
 
 .left__title {
     color: antiquewhite;
     font-size: 1.5rem;
     letter-spacing: 1.5px;
-    border-bottom: 3px solid antiquewhite;
     /* width: 22rem; */
     padding-bottom: 8px;;
 
+}
+
+.parkour p {
+    line-height: 28px;
 }
 
 /* ***************************************************************PARTIE GAUCHE************************************************* */
@@ -135,6 +136,21 @@ strong, mark {
     list-style-type: none;
     margin: 0.1rem 0;
 }
+.coordonnates {
+    position: relative;
+    right: 0;
+    transition: right 100ms ease-in-out;
+    cursor: pointer;
+}
+
+.coordonnates:hover {
+    right: -5px;
+}
+.coordonnates {
+    color: antiquewhite;
+    list-style-type: none;
+    text-decoration: none;
+}
 
 .html {
     display: flex;
@@ -168,6 +184,7 @@ strong, mark {
 
 .php {
     margin-top: 1rem;
+    align-items: center;
 }
 
 .php-logo {
@@ -192,16 +209,88 @@ strong, mark {
     line-height: 1.3rem;
 }
 
+.parkour, .formation {
+    margin-top: 2rem;
+}
+
 .parkour__subtitle {
     font-size: 1.2rem;
+    margin-bottom: 0.5rem;
 }
 
 .formation__subtitle {
     font-size: 1.2rem;
+    margin-bottom: 0;
 }
 
 .parkour, .formation {
     line-height: 1.4rem;
+}
+
+.parkour p {
+    margin-top: 0.2rem;
+}
+
+.formation p {
+    margin-top: 0.2rem;
+}
+
+.parkour__title, .formation__title, .intro__subtitle, .left__title {
+  padding-bottom: 1rem;
+  position: relative;
+  text-align: center;
+}
+/* -----------------------------LIGNE EN DESSOUS DES TITRES------------------------ */
+.parkour__title:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0);
+    height: 4px;
+    width: 128px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.formation__title:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0);
+    height: 4px;
+    width: 128px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.intro__subtitle:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: antiquewhite;
+    height: 4px;
+    width: 128px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.left__title:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: antiquewhite;
+    height: 4px;
+    width: 128px;
+    border-radius: 10px;
+    margin: auto;
 }
 
 /* ***************************************************RESPONSIVE DESIGN************************************************************* */
