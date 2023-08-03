@@ -30,6 +30,17 @@ body {
     border-radius: 1.5rem;
 }
 
+.wrapper--second {
+    width: 95%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(234, 234, 246);
+    border-radius: 1.5rem;
+    margin-top: 2rem;
+    display: none;
+}
+
 /* ******************************************************HEADER********************************************* */
 .intro {
     background-color: rgb(58, 95, 117);
@@ -165,7 +176,7 @@ strong, mark {
     height: 3.5rem;
 }
 
-.css, .php, .js {
+.css, .php, .js, .git {
     display: flex;
     align-items: flex-start;
     border: 2px solid grey;
@@ -293,6 +304,10 @@ strong, mark {
     margin: auto;
 }
 
+.hidden {
+    display: none;
+}
+
 /* ***************************************************RESPONSIVE DESIGN************************************************************* */
 /* @media screen and (min-width: 1100px) {
     .wrapper {
@@ -306,3 +321,153 @@ strong, mark {
         width: 800px;
     }
 } */
+
+/* @media screen and (max-width: 1080px) {
+   .left-content {
+    display: none;
+   }
+
+   .wrapper{
+    justify-content: center;
+    margin: auto;
+   }
+
+   .right-content {
+    border: none;
+    }
+  } */
+
+  @media screen and (max-width: 950px) {
+
+    .left-content {
+        display: none;
+    }
+
+    .wrapper{
+        justify-content: center;
+        margin: auto;
+    }
+
+    .right-content {
+        border: none;
+    }
+
+    .intro {
+        font-size: 0.8rem;
+    }
+
+    .parkour p {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .parkour__subtitle {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .formation__subtitle {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .formation p { 
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .intro__title {
+        font-size: 2rem;
+    }
+
+    .right-content {
+        border: none;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+
+    .wrapper--second{
+        display: block;
+    }
+    
+    .wrapper{
+        width: 95%;
+    }
+
+    header {
+        display: none;
+    }
+
+    .right-content {
+        border: none;
+    }
+
+    .hidden {
+        display: block;
+    }
+
+    .hidden p {
+        text-align: justify;
+        color: black;
+        padding: 0.2rem;
+        line-height: 22px;
+        font-size: 0.8rem;
+    }
+
+    .parkour p {
+        padding: 0.2rem;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .hidden p strong {
+        font-size: 0.8rem;
+    }
+
+    .intro__title {
+        background-color: rgb(58, 95, 117);
+        border-radius: 12px;
+        height: 2.5rem;
+        width: 15rem;
+        margin: auto;
+    }
+
+    .intro__subtitle {
+        margin-top: 1rem;
+        margin-bottom:  0rem;
+    }
+
+    .intro__subtitle mark {
+        border-radius: 12px;
+        padding: 8px;
+    }
+
+    .intro__subtitle:after {
+        background: rgb(0, 0, 0);
+    }
+
+    .parkour__title, .formation__title {
+        width: 100%;
+        font-size: 1.1rem;
+    }
+
+    .parkour__subtitle, .formation__subtitle {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .formation p {
+        padding: 0.2rem;
+        line-height: 22px;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .intro__subtitle mark {
+        font-size: 1rem;
+        display: block;
+    }
+  }
