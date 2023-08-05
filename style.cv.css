@@ -187,12 +187,12 @@ strong, mark {
     height: 4rem;
 }
 
-.php {
+.php, .symfony {
     margin-top: 1rem;
     align-items: center;
 }
 
-.php-logo {
+.php-logo, .symfony-logo {
     width: 4rem;
     height: 4rem;
 }
