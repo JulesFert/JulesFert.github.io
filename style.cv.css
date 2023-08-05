@@ -152,21 +152,17 @@ strong, mark {
     right: 0;
     transition: right 100ms ease-in-out;
     cursor: pointer;
-}
-
-.coordonnates:hover {
-    right: -5px;
-}
-.coordonnates {
     color: antiquewhite;
     list-style-type: none;
     text-decoration: none;
 }
 
+.coordonnates:hover {
+    right: -5px;
+}
+
 .html {
-    display: flex;
     align-items: center;
-    border: 2px solid grey;
     border-radius: 10px;
     padding: 5px;
 }
@@ -177,9 +173,7 @@ strong, mark {
 }
 
 .css, .php, .js, .git {
-    display: flex;
     align-items: flex-start;
-    border: 2px solid grey;
     border-radius: 10px;
     padding: 5px;
 }
@@ -306,6 +300,72 @@ strong, mark {
 
 .hidden {
     display: none;
+}
+
+/* ----------------------------------PARTIE DU BAS REPONSIVE AVEC COORDDONEES---------------------------------- */
+
+.left__title2 {
+    color: rgb(0, 0, 0);
+    letter-spacing: 1.5px;
+    padding-bottom: 1rem;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    font-size: 1.1rem;
+}
+
+.left__title2:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0);
+    height: 4px;
+    width: 128px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.coordonnates2 {
+    position: relative;
+    right: 0;
+    transition: right 100ms ease-in-out;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+.left__title2 li, a {
+    text-decoration: none;
+}
+
+.coordonnates2:hover {
+    right: -5px;
+}
+
+.right-content2 {
+    width: 95%;
+    padding: 1rem 0;
+    line-height: 1.3rem;
+}
+
+.coordonates__list {
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 0 1rem 0;
+    width: 15rem;
+    list-style-type: none;
+}
+
+#list {
+    list-style-type: none;
+    margin-top: 0;
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 /* ***************************************************RESPONSIVE DESIGN************************************************************* */
